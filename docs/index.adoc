@@ -1,0 +1,60 @@
+//
+// ============================================ Asciidoc HEADER =============================================
+//
+:doctype: book
+:pagenums:
+:numbered!:
+// get rid of PDF 'Chapter' labs on level 1 headings
+:chapter-label:
+//
+// HTML-only attributes
+//
+:linkcss:
+:keywords: integration specifications
+:description: openEHR Integration (INTG) Specifications
+:sectanchors:
+:intg_release: latest
+:jira-roadmap: https://openehr.atlassian.net/projects/SPECINTG?selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=unreleased
+:jira-hist-issues: https://openehr.atlassian.net/projects/SPEC?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page&status=all
+
+image::http://www.openehr.org/releases/BASE/latest/resources/images/openehr_logo_large.png["openEHR logo",align="center"]
+
+= Integration Specifications - {intg_release}
+
+// Use the following version for 'latest'
+ifeval::["{intg_release}" == "latest"]
+:jira-issues: https://openehr.atlassian.net/issues/?filter=10723
+[.title-para]
+{jira-roadmap}[Roadmap] | {jira-issues}[Current Issues] | {jira-hist-issues}[Change History]
+endif::[]
+
+// Use the following version for a named release
+ifeval::["{intg_release}" != "latest"]
+:jira-pr-release: https://openehr.atlassian.net/projects/SPECPR/versions/10060
+:jira-cr-release: https://openehr.atlassian.net/projects/SPECINTG/versions/10860
+[.title-para]
+{jira-pr-release}[Problems Fixed] | {jira-cr-release}[Changes Implemented] | {jira-roadmap}[Roadmap] | {jira-hist-issues}[Change History]
+endif::[]
+
+== Specifications
+
+[cols="2,5", options="header"]
+|===
+|Specification |Description
+
+|http://www.openehr.org/releases/INTG/{intg_release}/TDS.html[Template Data Schema (TDS) specification]
+|Template Data Schema - XSD derived from ADL template.
+
+|http://www.openehr.org/releases/INTG/{intg_release}/TDS.html[Template Data Object (TDO) specification]
+|Template Data Object - Class skeleton derived from ADL template.
+
+|===
+
+== Computable Expressions
+
+[cols="2,5", options="header"]
+|===
+|Resource |Description
+
+|===
+
