@@ -1,0 +1,22 @@
+{
+  "id": "INTG",
+  "title": "Integration",
+  "description": "openEHR Integration and related specifications",
+  "keywords": "integration, openehr",
+  "specifications": [],
+  "expressions": [],
+  "jira": {
+    "open_issues": "",
+    "roadmap": "SPECINTG"
+  },
+  "releases": [
+    {
+      "id": "0.1.0",
+      "date": "",
+      "jira": {
+        "crs": "",
+        "prs": ""
+      }
+    }
+  ]
+}
