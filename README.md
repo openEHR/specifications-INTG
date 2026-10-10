@@ -1,2 +1,3 @@
-= specifications-INTG
+# specifications-INTG
+
 openEHR Integration and related specifications
